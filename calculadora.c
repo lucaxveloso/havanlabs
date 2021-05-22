@@ -23,7 +23,7 @@ while(valor < 1 || valor > 5);
 
                 switch(valor2){
                     case 1:
-                    printf("Quantos reais vocÍ quer trocar?\n >>>");
+                    printf("Quantos reais voc√™ quer trocar?\n >>>");
                     scanf("%f", &real);
 
                     dolar = 0.19;
@@ -31,22 +31,22 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f dolares. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f dolares. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 2:
-                    printf("Quantos reais vocÍ quer trocar?\n >>>");
+                    printf("Quantos reais voc√™ quer trocar?\n >>>");
                     scanf("%f", &real);
 
                     libra = 0.13;
                     cota = real * libra;
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
-                    printf("VocÍ ir· receber %.2f libras. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f libras. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 3:
-                    printf("Quantos reais vocÍ quer trocar?\n >>>");
+                    printf("Quantos reais voc√™ quer trocar?\n >>>");
                     scanf("%f", &real);
 
                     euro = 0.16;
@@ -54,11 +54,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f euros. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f euros. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 4:
-                    printf("Quantos reais vocÍ quer trocar?\n >>>");
+                    printf("Quantos reais voc√™ quer trocar?\n >>>");
                     scanf("%f", &real);
 
                     peso = 17.75;
@@ -66,7 +66,7 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.3f pesos. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.3f pesos. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     default :
@@ -83,7 +83,7 @@ while(valor < 1 || valor > 5);
              } while (valor2 < 1 || valor2>4);
                switch(valor2){
                     case 1:
-                    printf("Quantos dol·res vocÍ quer trocar?\n >>>");
+                    printf("Quantos dol√°res voc√™ quer trocar?\n >>>");
                     scanf("%f", &dolar);
 
                     real = 5,27;
@@ -91,11 +91,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f reais. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f reais. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 2:
-                    printf("Quantos dolares vocÍ quer trocar\n >>>?");
+                    printf("Quantos dolares voc√™ quer trocar\n >>>?");
                     scanf("%f", &dolar);
 
                     libra = 0.71;
@@ -103,11 +103,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f libras. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f libras. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 3:
-                    printf("Quantos dolares vocÍ quer trocar?\n >>>");
+                    printf("Quantos dolares voc√™ quer trocar?\n >>>");
                     scanf("%f", &dolar);
 
                     euro = 0.82;
@@ -115,11 +115,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f euros. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f euros. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 4:
-                    printf("Quantos dolares vocÍ quer trocar?\n >>>");
+                    printf("Quantos dolares voc√™ quer trocar?\n >>>");
                     scanf("%f", &dolar);
 
                     peso = 93,93;
@@ -127,7 +127,7 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.3f pesos. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.3f pesos. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     default :
@@ -144,7 +144,7 @@ while(valor < 1 || valor > 5);
             } while (valor2 < 1 || valor2>4);
                 switch(valor2){
                     case 1:
-                    printf("Quantas libras vocÍ quer trocar?\n >>>");
+                    printf("Quantas libras voc√™ quer trocar?\n >>>");
                     scanf("%f", &libra);
 
                     real = 7,43 ;
@@ -152,11 +152,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f reais. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f reais. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 2:
-                    printf("Quantos libras vocÍ quer trocar?\n >>>");
+                    printf("Quantos libras voc√™ quer trocar?\n >>>");
                     scanf("%f", &libra);
 
                     dolar = 1.41;
@@ -164,11 +164,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f dolares. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f dolares. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 3:
-                    printf("Quantos libras vocÍ quer trocar?\n >>>");
+                    printf("Quantos libras voc√™ quer trocar?\n >>>");
                     scanf("%f", &libra);
 
                     euro = 1.16;
@@ -176,11 +176,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f euros. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f euros. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 4:
-                    printf("Quantos libras vocÍ quer trocar?\n >>>");
+                    printf("Quantos libras voc√™ quer trocar?\n >>>");
                     scanf("%f", &libra);
 
                     peso = 132.44;
@@ -188,7 +188,7 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.3f pesos. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.3f pesos. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     default :
@@ -205,7 +205,7 @@ while(valor < 1 || valor > 5);
             } while (valor2 < 1 || valor2>4);
                 switch(valor2){
                     case 1:
-                    printf("Quantos euros vocÍ quer trocar?\n >>> ");
+                    printf("Quantos euros voc√™ quer trocar?\n >>> ");
                     scanf("%f", &euro);
 
                     real = 6.40;
@@ -213,11 +213,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f reais. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f reais. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 2:
-                    printf("Quantos euros vocÍ quer trocar?\n >>> ");
+                    printf("Quantos euros voc√™ quer trocar?\n >>> ");
                     scanf("%f", &euro);
 
                     dolar = 1.21;
@@ -225,11 +225,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f dolares. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f dolares. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 3:
-                    printf("Quantos euros vocÍ quer trocar?\n >>>");
+                    printf("Quantos euros voc√™ quer trocar?\n >>>");
                     scanf("%f", &euro);
 
                     libra = 0.86;
@@ -237,11 +237,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f libras. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f libras. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 4:
-                    printf("Quantos euros vocÍ quer trocar?\n >>>");
+                    printf("Quantos euros voc√™ quer trocar?\n >>>");
                     scanf("%f", &euro);
 
                     peso = 114.08;
@@ -249,7 +249,7 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.3f pesos. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.3f pesos. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     default :
@@ -266,7 +266,7 @@ while(valor < 1 || valor > 5);
              } while (valor2 < 1 || valor2>4);
                 switch(valor2){
                     case 1:
-                    printf("Quantos pesos vocÍ quer trocar?\n >>>");
+                    printf("Quantos pesos voc√™ quer trocar?\n >>>");
                     scanf("%f", &peso);
 
                     real = 0.056;
@@ -274,11 +274,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f reais. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f reais. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 2:
-                    printf("Quantos pesos vocÍ quer trocar?\n >>>");
+                    printf("Quantos pesos voc√™ quer trocar?\n >>>");
                     scanf("%f", &peso);
 
                     dolar = 0.011;
@@ -286,11 +286,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f dolares. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f dolares. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 3:
-                    printf("Quantos pesos vocÍ quer trocar?\n >>>");
+                    printf("Quantos pesos voc√™ quer trocar?\n >>>");
                     scanf("%f", &peso);
 
                     libra = 0.0076;
@@ -298,11 +298,11 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f libras. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f libras. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     case 4:
-                    printf("Quantos pesos vocÍ quer trocar?\n >>>");
+                    printf("Quantos pesos voc√™ quer trocar?\n >>>");
                     scanf("%f", &peso);
 
                     euro = 0.0088;
@@ -310,7 +310,7 @@ while(valor < 1 || valor > 5);
                     taxa = (cota * 10)/100;
                     total= cota - taxa;
 
-                    printf("VocÍ ir· receber %.2f euros. >> Taxa de cotaÁ„o j· descontada!! <<", cota, total);
+                    printf("Voc√™ ir√° receber %.2f euros. >> Taxa de cota√ß√£o j√° descontada!! <<", cota, total);
                     break;
 
                     default :
